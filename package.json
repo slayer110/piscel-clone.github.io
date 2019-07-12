@@ -1,0 +1,50 @@
+{
+  "name": "PiskelClone",
+  "version": "0.0.1",
+  "description": "Initial project template for RSS PiskelClone task",
+  "main": "src/screens/canvas/index.js",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "coverage": "jest --coverage",
+    "dev": "webpack-dev-server --mode development --watch",
+    "build": "webpack --mode production",
+    "lint": "eslint src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/slayer110",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "extract-loader": "^3.1.0",
+    "html-loader": "^0.5.5",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": "^2.17.2",
+    "file-loader": "^4.0.0",
+    "html-cli": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.7.1",
+    "raw-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^2.0.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
